@@ -39,22 +39,46 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>First App</title>
 </head>
 
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <<h1>First Phonegap App</h1>
+            </div>
         </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img alt="Bootstrap Image Preview" src="img/react.png" class="img-thumbnail"/>
+                <button type="button" class="btn btn-info center-block">
+            Details
+          </button>
+            </div>
+            <div class="col-md-4">
+                <img alt="Bootstrap Image Preview" src="img/github.png" class="img-thumbnail" />
+                <button type="button" class="btn btn-info center-block">
+            Details
+          </button>
+            </div>
+            <div class="col-md-4">
+                <img alt="Bootstrap Image Preview" src="img/html5-css3.png" class="img-thumbnail" />
+                <button type="button" class="btn btn-info center-block">
+            Details
+          </button>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
+    <script type="text/javascript"></script>
 </body>
 
 </html>
